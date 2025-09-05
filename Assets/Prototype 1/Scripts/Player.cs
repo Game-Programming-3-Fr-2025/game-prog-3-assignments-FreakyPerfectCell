@@ -7,11 +7,12 @@ namespace PrototypeOne
         public float speed = 0.5f;
         private Rigidbody2D rb;
         private Vector2 input;
-        private SpriteRenderer spriteRenderer;
+        private SpriteRenderer sr;
 
         void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            sr = GetComponent<SpriteRenderer>();
         }
 
         void Update()
@@ -19,6 +20,15 @@ namespace PrototypeOne
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
             input.Normalize();
+
+            if (input.x < 0)
+            {
+                sr.flipX = true;
+            }
+            else
+            {
+                sr.flipX = false;
+            }
         }
 
         private void FixedUpdate()
