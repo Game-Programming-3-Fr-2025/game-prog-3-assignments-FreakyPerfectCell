@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 238707765}
   - component: {fileID: 238707764}
   - component: {fileID: 238707763}
+  - component: {fileID: 238707766}
   m_Layer: 0
   m_Name: Mosquito (14)
   m_TagString: Untagged
@@ -378,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &238707765
 SpriteRenderer:
@@ -435,6 +436,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &238707766
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238707761}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &258062514
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +494,7 @@ GameObject:
   - component: {fileID: 258062518}
   - component: {fileID: 258062517}
   - component: {fileID: 258062516}
+  - component: {fileID: 258062519}
   m_Layer: 0
   m_Name: Mosquito (33)
   m_TagString: Untagged
@@ -508,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &258062518
 SpriteRenderer:
@@ -565,6 +613,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &258062519
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258062514}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &264046969
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +671,7 @@ GameObject:
   - component: {fileID: 264046973}
   - component: {fileID: 264046972}
   - component: {fileID: 264046971}
+  - component: {fileID: 264046974}
   m_Layer: 0
   m_Name: Mosquito (21)
   m_TagString: Untagged
@@ -638,7 +733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &264046973
 SpriteRenderer:
@@ -695,6 +790,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &264046974
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264046969}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &271901866
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +848,7 @@ GameObject:
   - component: {fileID: 271901870}
   - component: {fileID: 271901869}
   - component: {fileID: 271901868}
+  - component: {fileID: 271901871}
   m_Layer: 0
   m_Name: Mosquito (24)
   m_TagString: Untagged
@@ -768,7 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &271901870
 SpriteRenderer:
@@ -825,6 +967,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &271901871
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271901866}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &276111654
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +1025,7 @@ GameObject:
   - component: {fileID: 276111658}
   - component: {fileID: 276111657}
   - component: {fileID: 276111656}
+  - component: {fileID: 276111659}
   m_Layer: 0
   m_Name: Mosquito (28)
   m_TagString: Untagged
@@ -898,7 +1087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &276111658
 SpriteRenderer:
@@ -955,6 +1144,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &276111659
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276111654}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &277360984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1327,7 @@ GameObject:
   - component: {fileID: 280015238}
   - component: {fileID: 280015237}
   - component: {fileID: 280015236}
+  - component: {fileID: 280015239}
   m_Layer: 0
   m_Name: Mosquito (17)
   m_TagString: Untagged
@@ -1153,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &280015238
 SpriteRenderer:
@@ -1210,6 +1446,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &280015239
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280015234}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &284298806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1504,7 @@ GameObject:
   - component: {fileID: 284298810}
   - component: {fileID: 284298809}
   - component: {fileID: 284298808}
+  - component: {fileID: 284298811}
   m_Layer: 0
   m_Name: Mosquito (20)
   m_TagString: Untagged
@@ -1283,7 +1566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &284298810
 SpriteRenderer:
@@ -1340,6 +1623,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &284298811
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284298806}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &297230210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,6 +1681,7 @@ GameObject:
   - component: {fileID: 297230214}
   - component: {fileID: 297230213}
   - component: {fileID: 297230212}
+  - component: {fileID: 297230215}
   m_Layer: 0
   m_Name: Mosquito (32)
   m_TagString: Untagged
@@ -1413,7 +1743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &297230214
 SpriteRenderer:
@@ -1470,6 +1800,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &297230215
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297230210}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &315514769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,6 +1858,7 @@ GameObject:
   - component: {fileID: 315514773}
   - component: {fileID: 315514772}
   - component: {fileID: 315514771}
+  - component: {fileID: 315514774}
   m_Layer: 0
   m_Name: Mosquito (13)
   m_TagString: Untagged
@@ -1543,7 +1920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &315514773
 SpriteRenderer:
@@ -1600,6 +1977,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &315514774
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315514769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &398551244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,6 +2035,7 @@ GameObject:
   - component: {fileID: 398551246}
   - component: {fileID: 398551247}
   - component: {fileID: 398551248}
+  - component: {fileID: 398551249}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Untagged
@@ -1701,7 +2125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!50 &398551248
 Rigidbody2D:
@@ -1730,6 +2154,52 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &398551249
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398551244}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &492309242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,6 +2212,7 @@ GameObject:
   - component: {fileID: 492309246}
   - component: {fileID: 492309245}
   - component: {fileID: 492309244}
+  - component: {fileID: 492309247}
   m_Layer: 0
   m_Name: Mosquito (11)
   m_TagString: Untagged
@@ -1803,7 +2274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &492309246
 SpriteRenderer:
@@ -1860,6 +2331,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &492309247
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492309242}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &546081001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,6 +2791,7 @@ GameObject:
   - component: {fileID: 592557196}
   - component: {fileID: 592557195}
   - component: {fileID: 592557194}
+  - component: {fileID: 592557197}
   m_Layer: 0
   m_Name: Mosquito (10)
   m_TagString: Untagged
@@ -2335,7 +2853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &592557196
 SpriteRenderer:
@@ -2392,6 +2910,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &592557197
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592557192}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &623276012
 GameObject:
   m_ObjectHideFlags: 0
@@ -2404,6 +2968,7 @@ GameObject:
   - component: {fileID: 623276016}
   - component: {fileID: 623276015}
   - component: {fileID: 623276014}
+  - component: {fileID: 623276017}
   m_Layer: 0
   m_Name: Mosquito (18)
   m_TagString: Untagged
@@ -2465,7 +3030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &623276016
 SpriteRenderer:
@@ -2522,6 +3087,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &623276017
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623276012}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &641910854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,6 +3190,7 @@ GameObject:
   - component: {fileID: 673345514}
   - component: {fileID: 673345513}
   - component: {fileID: 673345512}
+  - component: {fileID: 673345515}
   m_Layer: 0
   m_Name: Mosquito (5)
   m_TagString: Untagged
@@ -2640,7 +3252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &673345514
 SpriteRenderer:
@@ -2697,6 +3309,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &673345515
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673345510}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!224 &691739472 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1792414640939337698, guid: 0225574e39ea748cc855a8810b25815e, type: 3}
@@ -2749,6 +3407,7 @@ GameObject:
   - component: {fileID: 905883079}
   - component: {fileID: 905883078}
   - component: {fileID: 905883077}
+  - component: {fileID: 905883080}
   m_Layer: 0
   m_Name: Mosquito (8)
   m_TagString: Untagged
@@ -2810,7 +3469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &905883079
 SpriteRenderer:
@@ -2867,6 +3526,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &905883080
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905883075}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &957587894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,6 +3720,7 @@ GameObject:
   - component: {fileID: 975999905}
   - component: {fileID: 975999904}
   - component: {fileID: 975999903}
+  - component: {fileID: 975999906}
   m_Layer: 0
   m_Name: Mosquito (34)
   m_TagString: Untagged
@@ -3076,7 +3782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &975999905
 SpriteRenderer:
@@ -3133,6 +3839,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &975999906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975999901}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &984253997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3145,6 +3897,7 @@ GameObject:
   - component: {fileID: 984254001}
   - component: {fileID: 984254000}
   - component: {fileID: 984253999}
+  - component: {fileID: 984254002}
   m_Layer: 0
   m_Name: Mosquito (25)
   m_TagString: Untagged
@@ -3206,7 +3959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &984254001
 SpriteRenderer:
@@ -3263,6 +4016,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &984254002
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984253997}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &988486721
 GameObject:
   m_ObjectHideFlags: 0
@@ -3275,6 +4074,7 @@ GameObject:
   - component: {fileID: 988486725}
   - component: {fileID: 988486724}
   - component: {fileID: 988486723}
+  - component: {fileID: 988486726}
   m_Layer: 0
   m_Name: Mosquito (29)
   m_TagString: Untagged
@@ -3336,7 +4136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &988486725
 SpriteRenderer:
@@ -3393,6 +4193,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &988486726
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988486721}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &997210106
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,6 +4248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 997210107}
+  - component: {fileID: 997210108}
   m_Layer: 0
   m_Name: Swarm
   m_TagString: Untagged
@@ -3460,6 +4307,18 @@ Transform:
   - {fileID: 1329767813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &997210108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997210106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631ba7007c3dc9542b507bfdf5441aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1001850027
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,6 +4331,7 @@ GameObject:
   - component: {fileID: 1001850031}
   - component: {fileID: 1001850030}
   - component: {fileID: 1001850029}
+  - component: {fileID: 1001850032}
   m_Layer: 0
   m_Name: Mosquito (9)
   m_TagString: Untagged
@@ -3533,7 +4393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1001850031
 SpriteRenderer:
@@ -3590,6 +4450,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1001850032
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001850027}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1082024536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,6 +4508,7 @@ GameObject:
   - component: {fileID: 1082024540}
   - component: {fileID: 1082024539}
   - component: {fileID: 1082024538}
+  - component: {fileID: 1082024541}
   m_Layer: 0
   m_Name: Mosquito (6)
   m_TagString: Untagged
@@ -3663,7 +4570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1082024540
 SpriteRenderer:
@@ -3720,6 +4627,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1082024541
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082024536}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1166804103
 GameObject:
   m_ObjectHideFlags: 0
@@ -3866,6 +4819,7 @@ GameObject:
   - component: {fileID: 1213471770}
   - component: {fileID: 1213471769}
   - component: {fileID: 1213471768}
+  - component: {fileID: 1213471771}
   m_Layer: 0
   m_Name: Mosquito (2)
   m_TagString: Untagged
@@ -3927,7 +4881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1213471770
 SpriteRenderer:
@@ -3984,6 +4938,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1213471771
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213471766}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1252254383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,6 +4996,7 @@ GameObject:
   - component: {fileID: 1252254387}
   - component: {fileID: 1252254386}
   - component: {fileID: 1252254385}
+  - component: {fileID: 1252254388}
   m_Layer: 0
   m_Name: Mosquito (3)
   m_TagString: Untagged
@@ -4057,7 +5058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1252254387
 SpriteRenderer:
@@ -4114,6 +5115,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1252254388
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252254383}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1314769975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4126,6 +5173,7 @@ GameObject:
   - component: {fileID: 1314769979}
   - component: {fileID: 1314769978}
   - component: {fileID: 1314769977}
+  - component: {fileID: 1314769980}
   m_Layer: 0
   m_Name: Mosquito (19)
   m_TagString: Untagged
@@ -4187,7 +5235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1314769979
 SpriteRenderer:
@@ -4244,6 +5292,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1314769980
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314769975}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1325480872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4256,6 +5350,7 @@ GameObject:
   - component: {fileID: 1325480876}
   - component: {fileID: 1325480875}
   - component: {fileID: 1325480874}
+  - component: {fileID: 1325480877}
   m_Layer: 0
   m_Name: Mosquito (31)
   m_TagString: Untagged
@@ -4317,7 +5412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1325480876
 SpriteRenderer:
@@ -4374,6 +5469,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1325480877
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325480872}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1329767812
 GameObject:
   m_ObjectHideFlags: 0
@@ -4386,6 +5527,7 @@ GameObject:
   - component: {fileID: 1329767816}
   - component: {fileID: 1329767815}
   - component: {fileID: 1329767814}
+  - component: {fileID: 1329767817}
   m_Layer: 0
   m_Name: Mosquito (35)
   m_TagString: Untagged
@@ -4447,7 +5589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1329767816
 SpriteRenderer:
@@ -4504,6 +5646,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1329767817
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329767812}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1335776875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4516,6 +5704,7 @@ GameObject:
   - component: {fileID: 1335776879}
   - component: {fileID: 1335776878}
   - component: {fileID: 1335776877}
+  - component: {fileID: 1335776880}
   m_Layer: 0
   m_Name: Mosquito (23)
   m_TagString: Untagged
@@ -4577,7 +5766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1335776879
 SpriteRenderer:
@@ -4634,6 +5823,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1335776880
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335776875}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1343600620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4646,6 +5881,7 @@ GameObject:
   - component: {fileID: 1343600624}
   - component: {fileID: 1343600623}
   - component: {fileID: 1343600622}
+  - component: {fileID: 1343600625}
   m_Layer: 0
   m_Name: Mosquito (26)
   m_TagString: Untagged
@@ -4707,7 +5943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1343600624
 SpriteRenderer:
@@ -4764,6 +6000,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1343600625
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343600620}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1345988796
 GameObject:
   m_ObjectHideFlags: 0
@@ -25627,6 +26909,7 @@ GameObject:
   - component: {fileID: 1347824896}
   - component: {fileID: 1347824895}
   - component: {fileID: 1347824894}
+  - component: {fileID: 1347824897}
   m_Layer: 0
   m_Name: Mosquito (30)
   m_TagString: Untagged
@@ -25688,7 +26971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1347824896
 SpriteRenderer:
@@ -25745,6 +27028,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1347824897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347824892}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1356036580
 GameObject:
   m_ObjectHideFlags: 0
@@ -25757,6 +27086,7 @@ GameObject:
   - component: {fileID: 1356036584}
   - component: {fileID: 1356036583}
   - component: {fileID: 1356036582}
+  - component: {fileID: 1356036585}
   m_Layer: 0
   m_Name: Mosquito (22)
   m_TagString: Untagged
@@ -25818,7 +27148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1356036584
 SpriteRenderer:
@@ -25875,6 +27205,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1356036585
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356036580}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1390536730
 GameObject:
   m_ObjectHideFlags: 0
@@ -25887,6 +27263,7 @@ GameObject:
   - component: {fileID: 1390536734}
   - component: {fileID: 1390536733}
   - component: {fileID: 1390536732}
+  - component: {fileID: 1390536735}
   m_Layer: 0
   m_Name: Mosquito (1)
   m_TagString: Untagged
@@ -25948,7 +27325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1390536734
 SpriteRenderer:
@@ -26005,6 +27382,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1390536735
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390536730}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1397868332
 GameObject:
   m_ObjectHideFlags: 0
@@ -26017,6 +27440,7 @@ GameObject:
   - component: {fileID: 1397868336}
   - component: {fileID: 1397868335}
   - component: {fileID: 1397868334}
+  - component: {fileID: 1397868337}
   m_Layer: 0
   m_Name: Mosquito (15)
   m_TagString: Untagged
@@ -26078,7 +27502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1397868336
 SpriteRenderer:
@@ -26135,6 +27559,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1397868337
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397868332}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1569205287
 GameObject:
   m_ObjectHideFlags: 0
@@ -26147,6 +27617,7 @@ GameObject:
   - component: {fileID: 1569205291}
   - component: {fileID: 1569205290}
   - component: {fileID: 1569205289}
+  - component: {fileID: 1569205292}
   m_Layer: 0
   m_Name: Mosquito (12)
   m_TagString: Untagged
@@ -26208,7 +27679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1569205291
 SpriteRenderer:
@@ -26265,6 +27736,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1569205292
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569205287}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1589125999
 GameObject:
   m_ObjectHideFlags: 0
@@ -26381,7 +27898,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1589126003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26453,6 +27970,7 @@ GameObject:
   - component: {fileID: 1707580090}
   - component: {fileID: 1707580089}
   - component: {fileID: 1707580088}
+  - component: {fileID: 1707580091}
   m_Layer: 0
   m_Name: Mosquito (16)
   m_TagString: Untagged
@@ -26514,7 +28032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1707580090
 SpriteRenderer:
@@ -26571,6 +28089,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1707580091
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707580086}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1719567395
 GameObject:
   m_ObjectHideFlags: 0
@@ -26583,6 +28147,7 @@ GameObject:
   - component: {fileID: 1719567399}
   - component: {fileID: 1719567398}
   - component: {fileID: 1719567397}
+  - component: {fileID: 1719567400}
   m_Layer: 0
   m_Name: Mosquito (4)
   m_TagString: Untagged
@@ -26644,7 +28209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1719567399
 SpriteRenderer:
@@ -26701,6 +28266,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1719567400
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719567395}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1729832341
 GameObject:
   m_ObjectHideFlags: 0
@@ -26713,6 +28324,7 @@ GameObject:
   - component: {fileID: 1729832345}
   - component: {fileID: 1729832344}
   - component: {fileID: 1729832343}
+  - component: {fileID: 1729832346}
   m_Layer: 0
   m_Name: Mosquito (7)
   m_TagString: Untagged
@@ -26774,7 +28386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &1729832345
 SpriteRenderer:
@@ -26831,6 +28443,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1729832346
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729832341}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &1970319080
 GameObject:
   m_ObjectHideFlags: 0
@@ -27012,6 +28670,7 @@ GameObject:
   - component: {fileID: 2055883731}
   - component: {fileID: 2055883730}
   - component: {fileID: 2055883729}
+  - component: {fileID: 2055883732}
   m_Layer: 0
   m_Name: Mosquito (27)
   m_TagString: Untagged
@@ -27073,7 +28732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ade8064f297adf4388e566dd4bc2ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadScreen: {fileID: 0}
+  deadScreen: {fileID: 2079470672}
   speed: 2.5
 --- !u!212 &2055883731
 SpriteRenderer:
@@ -27130,6 +28789,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2055883732
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055883727}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3, y: 2.23}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3, y: 2.23}
+  m_EdgeRadius: 0
 --- !u!1 &2079470672
 GameObject:
   m_ObjectHideFlags: 0
